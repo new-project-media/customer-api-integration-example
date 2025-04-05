@@ -1,0 +1,17 @@
+{
+  "name": "customer-api-integration-example",
+  "version": "1.0.0",
+  "description": "Client for authenticating and accessing the NPM Customer API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "16.4.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "private": true
+}
